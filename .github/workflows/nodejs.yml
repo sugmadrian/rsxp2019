@@ -22,5 +22,7 @@ jobs:
         npm ci
     - name: npm lint
       run: npm run lint
+    - name: npm test coverage
+      run: npm run test:coverage
       env:
         CI: true
